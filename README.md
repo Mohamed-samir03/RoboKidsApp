@@ -1,77 +1,98 @@
-# RoboKids-App
-This is my graduation project, and it is about a smart educational application for children, 
-and this application contains a lot of features and is divided into two parts, a part for parents and a part for children ..
-where the part of parents can register within the application and add their children within the application.
-Parents can access it and know their children's use of the application and track them while they are using the application,
-and we know how much time they spent in each of the educational and recreational sections ... 
-And the children's section is divided into two parts, an educational section and an entertainment section.
+# RoboKids (Graduation Project-Excellent degree)
 
-The educational section contains:
+## Abstract
+The project developed a  ***native Android mobile app using Kotlin*** , It was built in order to provide children’s assistance in education, such as learning to write on the smart board, and it is returned whether he wrote correctly or not, using machine learning. In learning to pronounce, there is also a self-response whether the child’s pronunciation is correct or not, and some tests were also put in place, and parents can follow their children By sending reports for each son, the parents are the ones who control the registration, modification, or even deletion of the children. And this application was linked to a robot via Bluetooth in order to interact with the child, and artificial intelligence was linked to the application by using socket-programming, and the app Supports Arabic and English.
 
-  1- Teaching pronunciation: where we take the sound of the letter or word from the child and analyze it using machine learning, 
-  and we can say whether the child pronounced the letter correctly or not.
+[Documentation](https://drive.google.com/file/d/1z6PDPSP4K12QNulc2n0k43Pnxil1KkqV/view?usp=sharing)
+|| [Software Video](https://www.youtube.com/watch?v=8Kj0cpTen58)
+|| [Hardware video](https://www.youtube.com/watch?v=Xb_TqNN-_FU&t=0s)
+
+## Objectives
+- [x] Smart board for learning to write (Al)
+- [x] Learn pronunciation (Al)
+- [x] Robot that the child interacts with and learns through (Hardware)
+- [x] Determine the level of the child
+- [x] Send reports to parents
+- [x] Ease of learning
+- [x] App supports Arabic and English
+
+## Android Technologies
+- Kotlin programming language
+- Architecture Pattern (MVVM)
+- Dependency injection (Dagger-Hilt)
+- Kotlin Coroutines and LiveData
+- Android Jetpack (View Binding, Navigation Component)
+- Firebase ( Authentication, Cloud Firestore, Storage )
+- Image loading components (Glide)
+- Material design
+- Multilingual Arabic and English
+- Android Bluetooth
+- Python SDK for Android (Chaquopy)
+- Socket Programming
+
+- - - -
+> Banner
+<div align=center>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/4a88fdb5-d89b-4ed8-bfaa-d61fcff1632f">
+<br><br>
+<details>
+   <summary>Create New Account or Login</summary>
+   <p>You can create a new account by entering the e-mail, password, and your country, and then you can enter the information for the parents, which is represented in the gender, name, and date of birth, and then after that you can register the data of your children for each child separately by choosing a picture of your child, entering his gender, name, and age, and entering a password for a child, and this is optional . If the registration was done previously, you can log in directly with the email and password, and in case you forget the password, you can renew the password with the registered email.</p>
+</details>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/9e12782c-b304-42bd-8ff2-770cb359c672">
+
+<br><br>
+<details>
+   <summary>Reports and Parent Setting</summary>
+   <p></p>
+</details>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/531ee723-b6e9-443d-8653-d83df373d882">
+
+<br><br>
+<details>
+   <summary>Home Kids and Sections</summary>
+   <p></p>
+</details>
+<div align=center>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/d1efd144-e53b-457b-8b2c-3799a09fbd29">
   
-  2- Learning to write: where we take from the child the word or letter that he wrote on the board inside the application and
-  analyze it using machine learning and we can say whether the child wrote the letter or word correctly or not.
-  
-  3- Questions and tests: where the child can test himself on what he has learned within the two sections, pronunciation and writing.
+<br><br>
+<details>
+   <summary>Educational section (Learn pronunciation)</summary>
+   <p></p>
+</details>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/4d2a5929-ee5f-4342-ae10-e863e731cb29">
 
-And the entertainment section inside the application is intended to satisfy the child after studying, 
-as there is a section for movies, songs and games to entertain himself after studying.
+<br><br>
+<details>
+   <summary>Educational section (Learn to write)</summary>
+   <p></p>
+</details>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/f09e9238-bd48-43c0-8ca1-63d96f9b624c">
 
+ <br><br>
+<details>
+   <summary>Educational section (Exams)</summary>
+   <p></p>
+</details> 
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/f2c6d831-1390-4b35-9721-7840387cb550">
 
-==> And the tools used within the application:</br>
-  - language: Kotlin </br>
-  - Navigation component </br>
-  - Coroutines </br>
-  - dependency injection by (Dagger Hilt) </br>
-  - architectural pattern by (MVVM) </br> 
-  - Firebase </br>
-  - Glide </br>
-  - lottie for animation </br>
-  - connect bluetooth of adruino </br>
-  - Chacopy to connect the application with machine learning </br> 
-  - multiple screen (sdp-ssp) </br>
-  - Machine Learning (Handwriting Recognition & Automatic Speech Recognition) </br>
+  <br><br>
+<details>
+   <summary>Entertainment section</summary>
+   <p></p>
+</details> 
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/5c6ff168-f950-4822-964b-47c825c7f145">
 
-
-The Link vedio of project: https://www.youtube.com/watch?v=Nq-n1ue9nM4  
-
-The banner of Project:
-<p align="center">
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/76782050/252927983-a3cacc2b-69ad-473a-9534-b88da7e0071b.png"  />
-</p>
-
-Parents part:
-
-<p align="center">
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/0d6e2c98-df03-4821-b2f0-ba38a88033f7"  />
-</p>
-
-<p align="center">
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/65a4523d-713d-4b14-bcca-9a47f844484d"  />
-</p>
-
-Children's part:
-
-<p align="center">
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/b8cf94ba-3ad2-4f82-a00d-19583fa42b93"  />
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/d6a74616-0237-40de-b749-0bdd389e5760"  />
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/6e51dc14-ad2a-4ace-8011-7b21575f2820"  />
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/07ae7fa7-585a-4baa-863d-e60624658d76"  />
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/054aebc9-0266-492c-a645-5cddf52deb6f"  />
-</p>
-
-The Final Result Of Project: 
-
-<p align="center">
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/d91843be-f519-4d98-a58e-8b0bf9bd56a5" width="250" height="350" />
- <span> &nbsp;  &nbsp; </span>
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/5f2980dc-632f-4e32-b869-337ac71aae97" width="250" height="350" />
- <span> &nbsp;  &nbsp;  </span>
-<img src="https://github.com/Mohamed-Rafat-Safan/RoboKids-App/assets/76782050/1395e3cf-5644-47b9-adbc-a2441566a60a" width="250" height="350" />
-</p>
-
-
-
- 
+  <br><br>
+<details>
+   <summary>Final Result</summary>
+   <p></p>
+</details> 
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/a38ce2a5-40f9-4065-9921-0a375cbe82d2" height="230" width="200">
+  <br>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/1174d88d-db2c-4886-afbd-54f933d12270" height="280" width="200">
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/303c2cbb-f675-4cdb-8f34-bd5fd35dd384" height="280" width="200">
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/0ac0f568-605d-469d-b55d-6cea1f7b5a7d" height="280" width="200">
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/5bc54b7f-c67e-4308-b61f-b44a3943a08e" height="280" width="200">
+</div>
